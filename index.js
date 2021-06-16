@@ -129,10 +129,10 @@ function Airplane(name) {
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. 
-    2. 
-    3. 
-    4. 
+    1. When in global scope, this will be bound to the window object.
+    2. Whenever a dot preceeds "this", this will be bound to the object to the left of the dot.
+    3. When using a constructor function, this is bound to the object the functions creates and returns.
+    4. Explicit binding is when we specifically tell this what to bind to - using .call and .apply.
   */
   
   
